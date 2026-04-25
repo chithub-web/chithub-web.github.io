@@ -8,6 +8,12 @@ h1 {
   margin-top: 20px;
 }
 
+#turn {
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
 #board {
   width: 90vw;
   max-width: 480px;
@@ -40,4 +46,31 @@ h1 {
 .white {
   background: white;
   border: 1px solid #ccc;
+}
+
+/* 一手戻るボタン */
+button {
+  font-size: 20px;
+  padding: 14px 28px;
+  margin-top: 20px;
+  border: none;
+  border-radius: 10px;
+  background: #ffffff;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+  cursor: pointer;
+}
+
+/* リセットリンク */
+p {
+  margin-top: 40px;
+}
+
+a {
+  font-size: 14px;
+  color: #666;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
 }
